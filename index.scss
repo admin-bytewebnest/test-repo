@@ -1,5 +1,11 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+// Подключение экспортированных стилей Вариант 1
+// @use 'scss/abstracts'; 
+// @use 'scss/vendors' ; 
+// @use 'scss/base' ;
+// @use 'scss/layout' ;
+// @use 'scss/components' ;
+// @use 'scss/pages' ;
+
+
+//Вариант 2 (Рекомендованный)
+@use 'scss';

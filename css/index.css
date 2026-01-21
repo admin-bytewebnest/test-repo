@@ -1,6 +1,33 @@
 * {
   margin: 0;
-  padding: 0;
+  padding: 12px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+body {
+  background-color: #222;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px 1fr 100px;
+  height: 100dvh;
+  gap: 50px;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 3fr 1fr;
+  gap: 25px 50px;
+}
+.hero__item {
+  border: solid 3px white;
 }/*# sourceMappingURL=index.css.map */

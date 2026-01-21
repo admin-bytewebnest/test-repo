@@ -1,0 +1,26 @@
+// Файл для глобальной сетки
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 1fr 100px;
+    height: 100dvh;
+    gap: 50px;
+}
+// .wrapper{ //Родитель
+//     display: grid; //Только для родителя
+//     grid-template-columns: 1fr; //Ячейки сетки
+//     // //fr - Занимает всё свободное пространство внутри контейнера
+//     // //% - Проценты
+//     // //px - пиксели
+//     // grid-template-rows: 200px 200px; //Высота рядов ячеек
+
+//     // column-gap: 20px; //Отступ вертикальный между рядами ячеек
+//     row-gap: 50px; //Отступ горизонтальный между строками ячеек
+//     // gap: 40px 20px;
+//     // grid-template-columns: 1fr;
+//     grid-template-rows: 100px 1fr 100px;;
+//     height: 100dvh; //Высота
+// } 
+// // header { //Потомок grid контейнера
+// //     border: solid 10px white;
+// // }

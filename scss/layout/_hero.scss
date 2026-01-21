@@ -1,0 +1,12 @@
+.hero {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 3fr 1fr;
+    // column-gap: 50px;
+    // row-gap: 25px;
+    gap: 25px 50px;
+
+    &__item {
+        border: solid 3px white; //Рамка solid - Сплошная
+    }
+}
