@@ -1,8 +1,15 @@
 // Файл глобальных стилей
 body {
-    background-color: #222; // Заливка фона
-    color: white; //Цвет текста
+    background-color: white; // Заливка фона
+    color: black; //Цвет текста
 }
 a {
+    color: inherit; //Наследовать цвет родителя
     text-decoration: none;
+}
+.container {
+    width: 1050px; //Ширина контейнера
+    border: solid 1px black;
+    height: 100%;
+    margin:auto; //Внешний отступ
 }

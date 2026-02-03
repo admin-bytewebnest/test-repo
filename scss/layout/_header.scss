@@ -1,0 +1,20 @@
+.header {
+    display: grid;
+    grid-template-columns: minmax(0, calc(91px + 87px)) minmax(235px, auto);
+    grid-template-rows: minmax(100px,auto);
+    align-items: center;
+    min-height: 100px;
+    // gap:87px;
+
+    &__logo,
+    &__nav {
+        border: solid 1px green;
+    }
+    &__logo {
+
+    }
+    &__nav ul{
+        display: flex;
+        gap: 21px;
+    }
+}
